@@ -1,9 +1,9 @@
-/vendor/
-/node_modules/
-cloud_sql_proxy.exe
+/vendor
+/node_modules
 .env
-gcp_info.txt
-.editorconfig
-artisan
-app.yaml
 .gcloudignore
+.editorconfig
+gcp_info.txt
+app.yaml
+artisan
+cloud_sql_proxy.exe
