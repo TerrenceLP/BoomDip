@@ -5,3 +5,5 @@ cloud_sql_proxy.exe
 gcp_info.txt
 .editorconfig
 artisan
+app.yaml
+.gcloudignore
