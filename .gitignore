@@ -1,11 +1,7 @@
-/vendor
-/node_modules
+/vendor/
+/node_modules/
 cloud_sql_proxy.exe
 .env
 gcp_info.txt
 .editorconfig
 artisan
-BoomDip-On-GCP.code-workspace
-Quick access - Shortcut
-.gcloudignore
-app.yaml

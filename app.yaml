@@ -1,0 +1,31 @@
+runtime: php72
+
+env_variables:
+  LOG_CHANNEL: stackdriver
+  ## Put production environment variables here.
+  APP_KEY: base64:QF839iB3PBlTyx20Xbx1PxQs9RO/V2BFk9/Zl+kNS/A=
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  SESSION_DRIVER: cookie
+  ## Set these environment variables according to your CloudSQL configuration.
+  DB_DATABASE: boomdip
+  DB_USERNAME: root
+  DB_PASSWORD: LEEwCrAgzvH856K3
+  DB_SOCKET: "/cloudsql/boomdip:us-central1:boom-dip"
+
+  YELP_API_CLIENT_ID: UgWiUPnx0flA-Fbvei1-Ww
+  YELP_API_KEY: RiQhV5oZZX5UeAmqVuzAx55hWvcOlMxJS4A1RysD04Wq3xYsyVMGlgfcFtJIVjaB_NX8ZbM_BhN92ZyPZhu75a1CnL-3JFrDEOEsSa-5K_ouVzsMCoUOCL_4zJBFXXYx
+
+  IPINFO_TOKEN: dce0ade9d26ba8
+
+  GOOGLE_API_KEY: AIzaSyDqFb1zdHKyE-p04nlKh4ZWm_Up7x9fhiQ
+
+handlers:
+- url: /css
+  static_dir: public/css
+
+- url: /img
+  static_dir: public/img
+
+- url: /js
+  static_dir: public/js
