@@ -5,6 +5,6 @@
 .editorconfig
 gcp_info.txt
 app.yaml
-artisan
 cloud_sql_proxy.exe
 BoomDip-On-GCP.code-workspace
+firebase-sdk.html

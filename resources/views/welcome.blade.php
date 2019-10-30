@@ -3,11 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+
+        <!-- Styles -->
+        <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet" >
 
         <!-- Styles -->
         <style>
@@ -64,7 +69,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div id="app" class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -84,8 +89,8 @@
                    Infyom CoreUI template
                 </div>
 
-                <div class="links">
-                    <a href="http://labs.infyom.com/laravelgenerato">Infyom Labs Docs</a>
+                <div class="links aniLinks">
+                    <a id="myId" href="http://labs.infyom.com/laravelgenerato">Infyom Labs Docs</a>
                     <a href="https://laravel.com/docs">Laravel Docs</a>
                     <a href="https://coreui.io/docs/getting-started/introduction">CoreUI Docs</a>
                     <a href="https://github.com/laravel/laravel">Laravel GitHub</a>
@@ -93,5 +98,25 @@
                 </div>
             </div>
         </div>
+        <!-- Scripts -->
+        <script src="{{ mix('js/app.js') }}"></script>
+        <script>
+        TweenMax.to(".title", 2, {
+            duration:2.5,
+            y:-150,
+            skewX: 15,
+            rotationY:360,
+            onComplete:tweenComplete
+        });
+
+        TweenMax.to(".aniLinks", 3, {
+            duration:2.5,
+            rotationY:360,
+        });
+
+        function tweenComplete() {
+            console.log("the tween is complete");
+            }
+        </script>
     </body>
 </html>

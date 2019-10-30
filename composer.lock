@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "9386d253320cc7063a2003517a57ae0e",
@@ -1601,16 +1601,16 @@
         },
         {
             "name": "google/protobuf",
-            "version": "v3.9.1",
+            "version": "v3.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "4bb1a332b47f618a0a21ad3cc9a43f1c4aaa5b62"
+                "reference": "5159d2b6f11fe86ea1b8fca5a5d5c42cb0c93b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/4bb1a332b47f618a0a21ad3cc9a43f1c4aaa5b62",
-                "reference": "4bb1a332b47f618a0a21ad3cc9a43f1c4aaa5b62",
+                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/5159d2b6f11fe86ea1b8fca5a5d5c42cb0c93b1e",
+                "reference": "5159d2b6f11fe86ea1b8fca5a5d5c42cb0c93b1e",
                 "shasum": ""
             },
             "require": {
@@ -1638,7 +1638,7 @@
             "keywords": [
                 "proto"
             ],
-            "time": "2019-08-06T17:47:34+00:00"
+            "time": "2019-09-23T17:53:18+00:00"
         },
         {
             "name": "grpc/grpc",
@@ -1874,12 +1874,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/InfyOmLabs/coreui-templates.git",
-                "reference": "2490454e06baee4a3c7d4c5772d50e17f01c684f"
+                "reference": "714fff7baa2422efb46d596e57964d24676b68b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InfyOmLabs/coreui-templates/zipball/2490454e06baee4a3c7d4c5772d50e17f01c684f",
-                "reference": "2490454e06baee4a3c7d4c5772d50e17f01c684f",
+                "url": "https://api.github.com/repos/InfyOmLabs/coreui-templates/zipball/714fff7baa2422efb46d596e57964d24676b68b3",
+                "reference": "714fff7baa2422efb46d596e57964d24676b68b3",
                 "shasum": ""
             },
             "require": {
@@ -1911,7 +1911,7 @@
                 "laravel",
                 "templates"
             ],
-            "time": "2019-09-04T12:23:14+00:00"
+            "time": "2019-09-27T12:51:04+00:00"
         },
         {
             "name": "infyomlabs/generator-builder",
@@ -1919,16 +1919,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/InfyOmLabs/generator-builder.git",
-                "reference": "1e5e99f2f7e0dfe9a7eda480f345f4745ab47d6e"
+                "reference": "f2627170501fbc52f9b5cce4c21035c531cf7ae2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InfyOmLabs/generator-builder/zipball/1e5e99f2f7e0dfe9a7eda480f345f4745ab47d6e",
-                "reference": "1e5e99f2f7e0dfe9a7eda480f345f4745ab47d6e",
+                "url": "https://api.github.com/repos/InfyOmLabs/generator-builder/zipball/f2627170501fbc52f9b5cce4c21035c531cf7ae2",
+                "reference": "f2627170501fbc52f9b5cce4c21035c531cf7ae2",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "~5.0",
+                "illuminate/support": ">=5.0",
                 "php": ">=5.5.9"
             },
             "type": "library",
@@ -1958,7 +1958,7 @@
                 "laravel",
                 "view"
             ],
-            "time": "2019-05-16T03:30:25+00:00"
+            "time": "2019-09-26T12:07:00+00:00"
         },
         {
             "name": "infyomlabs/laravel-generator",
@@ -1966,12 +1966,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/InfyOmLabs/laravel-generator.git",
-                "reference": "107a111cb716c78a226171354084f8aefb1a1842"
+                "reference": "e5f1b2d49f9aa4560b35de275399587a50b39a3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InfyOmLabs/laravel-generator/zipball/107a111cb716c78a226171354084f8aefb1a1842",
-                "reference": "107a111cb716c78a226171354084f8aefb1a1842",
+                "url": "https://api.github.com/repos/InfyOmLabs/laravel-generator/zipball/e5f1b2d49f9aa4560b35de275399587a50b39a3c",
+                "reference": "e5f1b2d49f9aa4560b35de275399587a50b39a3c",
                 "shasum": ""
             },
             "require": {
@@ -2024,7 +2024,7 @@
                 "test",
                 "view"
             ],
-            "time": "2019-09-19T11:53:15+00:00"
+            "time": "2019-09-27T12:53:59+00:00"
         },
         {
             "name": "infyomlabs/swagger-generator",
@@ -2552,26 +2552,26 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.46",
+            "version": "1.0.55",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2"
+                "reference": "33c91155537c6dc899eacdc54a13ac6303f156e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2",
-                "reference": "f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/33c91155537c6dc899eacdc54a13ac6303f156e6",
+                "reference": "33c91155537c6dc899eacdc54a13ac6303f156e6",
                 "shasum": ""
             },
             "require": {
+                "ext-fileinfo": "*",
                 "php": ">=5.5.9"
             },
             "conflict": {
                 "league/flysystem-sftp": "<1.0.6"
             },
             "require-dev": {
-                "ext-fileinfo": "*",
                 "phpspec/phpspec": "^3.4",
                 "phpunit/phpunit": "^5.7.10"
             },
@@ -2632,7 +2632,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2018-08-22T07:45:22+00:00"
+            "time": "2019-08-24T11:17:19+00:00"
         },
         {
             "name": "maxmind-db/reader",
@@ -5418,8 +5418,8 @@
             "authors": [
                 {
                     "name": "Tijs Verkoyen",
-                    "email": "css_to_inline_styles@verkoyen.eu",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "css_to_inline_styles@verkoyen.eu"
                 }
             ],
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
@@ -5648,8 +5648,8 @@
             "authors": [
                 {
                     "name": "Filipe Dobreira",
-                    "homepage": "https://github.com/filp",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "homepage": "https://github.com/filp"
                 }
             ],
             "description": "php error handling for cool kids",
@@ -5977,18 +5977,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpeople.de"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
@@ -6355,8 +6355,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "FilterIterator implementation that filters files based on a list of suffixes.",
@@ -6397,8 +6397,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Simple template engine.",
@@ -6446,8 +6446,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Utility class for timing",
@@ -7148,8 +7148,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
@@ -7189,8 +7189,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "arne@blankerts.de"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",

@@ -1,4 +1,8 @@
+import Vue from 'vue';
+import BootstrapVue from 'bootstrap-vue';
+import TweenMax from 'gsap/TweenMax';
 
+Vue.use(BootstrapVue);
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -21,7 +25,9 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-
+Vue.component('navbar-component', require('./components/NavBarComponent.vue').default);
+Vue.component('sidebar-component', require('./components/SideBarComponent.vue').default);
+Vue.component('card-component', require('./components/CardComponent.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

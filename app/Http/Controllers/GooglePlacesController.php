@@ -10,10 +10,8 @@ class GooglePlacesController extends Controller
     public function placesSearch()
     {
         $api_key = env('GOOGLE_API_KEY');
-        // $ip = Request::ip();
-        $ext_ip = "173.230.141.18";
 
-        $position = Location::get($ext_ip);
+        $position = Location::get();
         $location = $position->latitude . "," . $position->longitude;
         $location = "circle:2500@$location";
         $imgMissing = '/img/google/placeholder.png';
